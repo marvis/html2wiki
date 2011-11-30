@@ -1,0 +1,2 @@
+# the second _html2wiki is used to delete multiple empty lines
+tidy -f /dev/null -u -utf8 $1 | _html2wiki | _html2wiki 
